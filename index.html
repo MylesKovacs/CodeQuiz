@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header class="header">
+        <h1><em>Welcome to the Quiz-O-Rama!</em></h1> 
+    </header>
+    <div class="container">
+        <div class="highscore">
+            <div>
+                 <h2>HIGH SCORE</h2>
+            </div>
+
+            <div>
+                <h4>NAME:<span id="name-box"></span></h4>
+                <br>
+                <h4>SCORE:<span id="score-box"> 0</span></h4>
+             </div>
+         </div>
+        <div class="quiz-section">
+            <h1 id="question-box">Question</h1>
+            <div id="option-box">
+                <button id="btn1" class="btn" data-answer-type="1">Answer1</button>
+                <button id="btn2" class="btn" data-answer-type="2">Answer2</button>
+                <button id="btn3" class="btn" data-answer-type="3">Answer3</button>
+                <button id="btn4" class="btn" data-answer-type="4">Answer4</button>
+              
+            </div>
+            <br>
+            <br>
+            <h2 id="answer-box"></h2>
+        </div>
+
+    
+        <div class="timer">
+             <h2>Timer: <span id="time-left">60</span></h2>
+            <button id="start-button">Start Quiz!</button>
+            <!--<button id="stop-button">Stop Quiz</button>-->
+
+        </div>
+
+        <script src="script122820.js"></script>
+</body>
+</html>
