@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz</title>
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body> 
-    <header class="header">
-        <h1><em>Welcome to the Quiz-O-Rama!</em></h1> 
-    </header>
-    <div class="container">
-        <div class="highscore">
-            <div>
-                 <h2>HIGH SCORE</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Test your whit!</h1>
+        </header>
+        <div class="container">
+            <div class="highscore-container">
+                <div>
+                    <h2>Current Record</h2>
+                </div>
+                <div>
+                    <h3>Record Holder:<span id="highName"></span></h3>
+                    <br>
+                    <h3>Score:<span id="recordScore"></span></h3>
+                </div>
             </div>
-
-            <div>
-                <h4>NAME:<span id="name-box"></span></h4>
-                <br>
-                <h4>SCORE:<span id="score-box"> 0</span></h4>
-             </div>
-         </div>
-        <div class="quiz-section">
-            <h1 id="question-box">Question</h1>
-            <div id="option-box">
-                <button id="btn1" class="btn" data-answer-type="1">Answer1</button>
-                <button id="btn2" class="btn" data-answer-type="2">Answer2</button>
-                <button id="btn3" class="btn" data-answer-type="3">Answer3</button>
-                <button id="btn4" class="btn" data-answer-type="4">Answer4</button>
-              
+            <div class="quiz-container">
+                <h2 id="question-disp">Your Question</h2>
+                <div id="answers">
+                    <button id="btnA" class="btn" data-answer-type="A">A</button>
+                    <button id="btnB" class="btn" data-answer-type="B">B</button>
+                    <button id="btnC" class="btn" data-answer-type="C">C</button>
+                    <button id="btnD" class="btn" data-answer-type="D">D</button>
+                </div>
+                <h2 id="answer-check"></h2>
             </div>
-            <br>
-            <br>
-            <h2 id="answer-box"></h2>
+            <div class="timer-container">
+                <h2>Timer:<span id=timer>60</span></h2>
+                <button class="start" id="start-btn">Start!</button>
+            </div>
         </div>
-
-    
-        <div class="timer">
-             <h2>Timer: <span id="time-left">60</span></h2>
-            <button id="start-button">Start Quiz!</button>
-            <!--<button id="stop-button">Stop Quiz</button>-->
-
-        </div>
-
-        <script src="script122820.js"></script>
-</body>
+        <script src="index.js"></script>
+    </body>
 </html>
