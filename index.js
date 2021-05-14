@@ -139,5 +139,4 @@ function displayHighscore(){
     recScore.innerHTML = (highScore);
 }
 
-
 displayHighscore();
