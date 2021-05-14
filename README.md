@@ -1,20 +1,23 @@
 # Coding Quiz
-## Table of Contents
-- [Description](#description)
-- [Website Link](#website-link)
+![GitHub] (https://github.com/MylesKovacs/CodeQuiz) 
 
+
+#### Table of Contents  
+[Description](#description)<br>
+[Built with](#built-with-these-tools)<br>
+[License & Copyrights](#license--copyrights)<br>
 
 ## Description
+* A short quiz on some programming concepts to test javascript development capabilities
 
-This is the fourth weekly challenge assignment.  In this challenge, we are tasked to create code quiz, and caputure the high score and initals of the player.
 
+## Built with These Tools
+* JavaScript
+* HTML
+* CSS
 
-## Authors
+## Contributions & Contact Info
+* Myles Kovacs - [GitHub](https://github.com/MylesKovacs)
 
-Created by Myles Kovacs
-(https://github.com/MylesKovacs)
-
-## Built With
-
-  [VS Code](https://code.visualstudio.com/)
-
+## License & Copyrights
+Licensed under the [MIT License]('./LICENSE')
